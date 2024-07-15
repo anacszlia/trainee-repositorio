@@ -12,4 +12,4 @@ Olá, sou Ana Claudia Sganzerla ,sou de Maximiliano de Almeida -RS.Atualmente es
 3. [Sprint 3](Sprint%203/README.md)
 4. ...
 
-![face](img/face.jpeg)
+![face](img/C:\Users\anacs\trainee-repositorio-main\img\face.jpeg)
