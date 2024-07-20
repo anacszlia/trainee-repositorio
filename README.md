@@ -6,9 +6,9 @@ Olá, me chamo **Ana Claudia Sganzerla** ,sou de Maximiliano de Almeida -RS.Atua
 
 ## Sprints 
 
-1. [Sprint 1](SPRINT_1\README.MD)
-2. [Sprint 2](SPRINT_2\README.md)
-3. [Sprint 3](SPRINT_3\README.md)
+1. [Sprint 1](SPRINT_1/README.MD)
+2. [Sprint 2](SPRINT_2/README.md)
+3. [Sprint 3](SPRINT_3/README.md)
 
 <img src="img\face.jpeg" width="100px" height="100px"/>
 
