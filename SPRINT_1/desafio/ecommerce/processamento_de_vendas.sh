@@ -24,7 +24,8 @@ cat backup-dados-`date +%Y%m%d`.csv | cut -d',' -f2 | uniq | wc -l > qtd.txt
 head -n 10 backup-dados-`date +%Y%m%d`.csv > primeirasL.txt
 cat *.txt > resumo.txt
 rm data_so.txt data_p.txt data_u.txt qtd.txt primeirasL.txt
-cp resumo.txt relatorio`date +%Y%m%d`.txt
+#código que copie apenas um intervalo de linhas para outro arquivo
+sed -n '1,14p' resumo.txt > relatorio`date +%Y%m%d`.txt
 rm resumo.txt
 #compactar arquivo
 zip backup-dados-`date +%Y%m%d`.zip backup-dados-`date +%Y%m%d`.csv 
