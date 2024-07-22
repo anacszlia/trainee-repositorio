@@ -1,7 +1,7 @@
 # Etapas
 Primeiramente ,acesse seu home do terminal linux e execute
-
-1. [Etapa I](./processamento_de_vendas.sh)
+o primeiro arquivo executável
+1. [Etapa I](./ecommerce/processamento_de_vendas.sh)
 
 
 Após ,execute o consolidador de vendas
