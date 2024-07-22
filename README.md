@@ -14,5 +14,4 @@ Olá, me chamo **Ana Claudia Sganzerla** ,sou de Maximiliano de Almeida -RS.Atua
 
 ## Contatos :
 [Linkedin](https://www.linkedin.com/in/ana-sganzerla-526325221/)
-[Discord](anana_ana)
 
