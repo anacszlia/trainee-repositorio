@@ -2,6 +2,7 @@
 Primeiramente ,acesse seu home do terminal linux e execute
 
 1. [Etapa I](SPRINT_1/desafio/processamento_de_vendas.sh)
+<img src="SPRINT_1/desafio/processamento_de_vendas.sh"/>
 
 Após ,execute o consolidador de vendas
 2. [Etapa II](SPRINT_1/desafio/consolidador_de_processamento_de_vendas.sh)

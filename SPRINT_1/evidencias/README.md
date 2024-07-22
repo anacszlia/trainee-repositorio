@@ -1,5 +1,6 @@
 O primeiro passo foi entrar no diretório e executar o arquivo .sh
 ![Evidencia 1](img/step1.png)
+<img src="img/step1.png"/>
 
 ![Evidencia 2](img/ev1.png)
 
