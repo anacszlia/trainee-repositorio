@@ -45,7 +45,7 @@ Table "tb_vendedor" {
   "estadoVendedor" TEXT
 }
 ```
-![modeloER](/modelos/modelo relacional diagrama.png)
+![modeloER](./modelos/mER.png)
 
 Desafio 2
 ```sql
