@@ -1,4 +1,5 @@
-```PostgreSQL
+Desafio 1
+```sql
 
 Table "tb_carro" {
   "idCarro" INT
@@ -45,3 +46,39 @@ Table "tb_vendedor" {
 }
 ```
 ![modeloER](./modelos/modelo relacional diagrama.png)
+
+Desafio 2
+```sql
+CREATE VIEW dim_datas AS
+    SELECT dataLocacao,
+           dataEntrega
+      FROM tb_local;
+
+CREATE VIEW enderecos AS
+    SELECT cidadeCliente,
+           estadoCliente,
+           paisCliente
+      FROM tb_cliente
+    UNION
+    SELECT estadoVendedor
+      FROM tb_vendedor;
+
+
+-- Visualizar: fatos
+CREATE VIEW fatos AS
+    SELECT qtdDiaria,
+           vlrDiaria,
+           idLocacao,
+           idCliente,
+           idCarro,
+           idVendedor
+      FROM tb_vendas
+    UNION
+    SELECT sexoVendedor
+      FROM tb_Vendedor
+    UNION
+    SELECT idCombustivel
+      FROM tb_carros;
+
+```
+![modeloER](./)
