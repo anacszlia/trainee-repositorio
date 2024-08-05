@@ -2,7 +2,7 @@ Desafio 1
 ```sql
 
 Table "tb_carro" {
-  "idCarro" INT
+  "idCarro" INT [pk]
   "classiCarro" TEXT
   "marcaCarro" TEXT
   "modeloCarro" TEXT
@@ -12,7 +12,7 @@ Table "tb_carro" {
 }
 
 Table "tb_cliente" {
-  "idCliente" INT
+  "idCliente" INT [pk]
   "nomeCliente" TEXT
   "cidadeCliente" TEXT
   "estadoCliente" TEXT
@@ -20,7 +20,7 @@ Table "tb_cliente" {
 }
 
 Table "tb_local" {
-  "idLocacao" INT
+  "idLocacao" INT [pk]
   "dataLocacao" NUM
   "horaLocacao" NUM
   "qtdDiaria" INT
@@ -30,29 +30,36 @@ Table "tb_local" {
 }
 
 Table "tb_vendas" {
-  "idLocacao" int [pk]
-  "idCliente" int
-  "idCarro" int
-  "qtdDiaria" int
-  "vlrDiaria" decimal(18,2)
-  "idVendedor" int
+  "idLocacao" INT 
+  "idCliente" INT
+  "idCarro" INT
+  "qtdDiaria" INT
+  "vlrDiaria" DECIMAL(18,2)
+  "idVendedor" INT
 }
 
 Table "tb_vendedor" {
-  "idVendedor" INT
+  "idVendedor" INT [pk]
   "nomeVendedor" TEXT
   "sexoVendedor" INT
   "estadoVendedor" TEXT
 }
+Ref: tb_carro.idCarro> tb_vendas.idCarro
+Ref: tb_vendas.idVendedor> tb_vendedor.idVendedor
+Ref: tb_local.idLocacao - tb_vendas.idLocacao
+Ref: tb_cliente.idCliente < tb_vendas.idCliente
+
 ```
-![modeloER](./modelos/mER.png)
+![modeloER](./modelos/diagramaER.png)
 
 Desafio 2
 ```sql
-CREATE VIEW dim_datas AS
+CREATE VIEW dim_datass AS
     SELECT dataLocacao,
            dataEntrega
       FROM tb_local;
+      UNION SELECT anoCarro
+      from tb_carros
 
 CREATE VIEW enderecos AS
     SELECT cidadeCliente,
@@ -80,5 +87,41 @@ CREATE VIEW fatos AS
     SELECT idCombustivel
       FROM tb_carros;
 
+create view  dim_locacao as
+select distinct 
+idLocacao,
+dataLocacao,
+horaLocacao,
+qtdDiaria,
+vlrDiaria,
+dataEntrega,
+horaEntrega
+from tb_local
+
+create view dim_carros as 
+select distinct
+idCarro,
+classiCarro,
+marcaCarro,
+modeloCarro,anoCarro,
+idCombustivel,
+tipoCombustivel
+from tb_carros
+
+ create view dim_clientes as 
+select distinct
+idCliente,
+nomeCliente,
+cidadeCliente,
+estadoCliente,paisCliente
+from tb_clientes
+
+create view dim_vendedores as 
+select distinct 
+idVendedor,
+nomeVendedor,
+sexoVendedor,
+estadoVendedor
+from tb_vendedor
 ```
-![modeloER](./)
+![modeloER](./modelos/diagrama.dim.png)
