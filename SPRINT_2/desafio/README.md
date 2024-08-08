@@ -1,4 +1,4 @@
-Desafio 1
+Modelo Relacional normalizado
 ```sql
 
 Table "tb_carro" {
@@ -52,7 +52,7 @@ Ref: tb_cliente.idCliente < tb_vendas.idCliente
 ```
 ![modeloER](./modelos/diagramaER.png)
 
-Desafio 2
+Modelo Dimensional 
 ```sql
 CREATE VIEW dim_datass AS
     SELECT dataLocacao,
