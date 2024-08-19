@@ -1,0 +1,50 @@
+Robert Downey, Jr. 9321.80.
+Harrison Ford 5968.20.
+Samuel L. Jackson 5534.40.
+Morgan Freeman 5137.50.
+Tom Hanks 4898.50.
+Anthony Daniels 4558.40.
+Eddie Murphy 4389.90.
+Scarlett Johansson 4091.90.
+Michael Caine 4002.20.
+Andy Serkis 3976.00.
+Tom Cruise 3957.10.
+Gary Oldman 3953.60.
+Stellan Skarsgard 3915.20.
+Johnny Depp 3911.80.
+Stanley Tucci 3661.10.
+Ian McKellen 3660.80.
+Robin Williams 3646.10.
+Will Smith 3610.50.
+Bruce Willis 3596.10.
+Cameron Diaz 3596.10.
+Liam Neeson 3526.90.
+Robert DeNiro 3478.60.
+Don Cheadle 3463.30.
+Matt Damon 3454.40.
+Orlando Bloom 3421.70.
+Woody Harrelson 3346.80.
+Helena Bonham Carter 3317.40.
+Leonardo DiCaprio 3302.70.
+Cate Blanchett 3291.30.
+Elizabeth Banks 3263.90.
+Jeremy Renner 3263.80.
+Emma Watson 3237.70.
+Ben Stiller 3219.70.
+Chris Evans 3211.10.
+Ralph Fiennes 3207.70.
+Daniel Radcliffe 3187.40.
+Idris Elba 3164.90.
+Tommy Lee Jones 3036.30.
+Bradley Cooper 3035.10.
+Julia Roberts 3025.80.
+Brad Pitt 2990.30.
+Philip Seymour Hoffman 2990.00.
+Anne Hathaway 2986.30.
+Jonah Hill 2981.70.
+Owen Wilson 2958.90.
+Adam Sandler 2945.90.
+Jim Carrey 2926.50.
+Sandra Bullock 2904.00.
+Dustin Hoffman 2903.10.
+Mark Wahlberg 2902.00.
