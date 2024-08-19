@@ -4,9 +4,9 @@ Olá,nessa sprint foi trabalhado a linguagem __python__ e seus usos na modelagem
 
 `## Exercícios`
 [exercicios](./exercicios/README.md)
-# Evidências de execução
+`## Evidências de execução`
 [evidencias](./evidencias/README.md)
-# Desafio 
+`## Desafio `
 [desafios](./desafio/README.md)
-# Certificados
+`## Certificados`
 [certificados](./certificados/README.md)
