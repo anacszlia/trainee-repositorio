@@ -1,5 +1,6 @@
 Neste desafio foi praticado alguns comandos básicos de docker para construir uma imagem e executar containeres,além do uso do algoritmo sha-1 em um arquivo python.
 # Etapas de execução
+Necessário ter o docker-desktop instalado e rodando para executar as etapas
 ## Etapa 1
 É necessário fazer o download do arquivo [dockerfile](./desafio/dockerfile) e o arquivo [carguru](./desafio/carguru.py) e executar os primeiros dois comandos em [comandosLog](./desafio/comandos.log)
 
