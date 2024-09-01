@@ -117,6 +117,3 @@ antonov = Aviao("Antonov An-2", 258, 12)
 lista=[boing,praetor,antonov]
 for i in lista :
     print(f"O modelo {i.modelo} atinge uma velocidade máxima de {i.velocidade_maxima} km/h capacidade para {i.capacidade} passageiros.Cor: {i.cor}.")
-print(sublista1,sublista2,sublista3)
-x = ('apple', 'banana', 'cherry')
-y = enumerate(x)

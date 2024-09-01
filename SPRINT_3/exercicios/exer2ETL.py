@@ -26,9 +26,7 @@ media = total_gross / total_filmes
 
 with open('etapa-2.txt', 'w', encoding='utf-8') as saida:
     print(f'Média Bruta por Filme: {media:.2f}', file=saida)
-
-# Verifica se os arquivos foram fechados
 if file.closed:
     print("Arquivo 'actors.csv' já fechado")
-#if saida.closed:
-#    print("Arquivo 'etapa-2.txt' finalizado")
+if saida.closed:
+    print("Arquivo 'etapa-2.txt' finalizado")
