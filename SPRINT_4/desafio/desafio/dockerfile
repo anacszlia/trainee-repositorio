@@ -1,0 +1,9 @@
+    FROM python:3
+
+    WORKDIR /app
+
+    COPY carguru.py .
+
+    EXPOSE 3000
+
+    CMD ["python", "./carguru.py"]

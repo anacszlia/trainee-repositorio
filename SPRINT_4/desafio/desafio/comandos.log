@@ -1,0 +1,7 @@
+
+docker build -t carguru-image .
+docker run --name container-carguru carguru-image
+
+docker build -t mascarar-dados .
+docker run -ti --name container-mascaramento mascarar-dados
+
