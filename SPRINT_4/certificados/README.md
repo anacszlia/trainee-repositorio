@@ -1,2 +1,5 @@
 ## Certificados
-[certificado](./awscursoSP4.pdf)
+[certificadoAWS](./awscursoSP4.pdf)
+
+## leitura de artigo sobre programação funcional
+![artigo](artigo.png)
