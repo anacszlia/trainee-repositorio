@@ -1,5 +1,5 @@
 # Resumo sprint 5
-Nesta sprint foi trabalhado os cursos ofertados foi a preparação para o exame da AWS e a prática de vários Serviços para soluções no laboratório AWS.
+Nesta sprint foram trabalhados os cursos ofertados de preparação para o exame da AWS e a prática de vários Serviços para soluções no laboratório AWS.
 
 `Exercícios`
 [exercicios](./exercicios/README.md)
