@@ -1,3 +1,15 @@
+# Resumo do desafio:
+Nesta sprint foi necessário criar um arquivo dockerfile que criasse um volume para armazenar arquivos persistentes ,e ao rodar o container,carregasse os arquivos csvs para o bucket especificado através do [arquivoPython](scriptDesafio6.py).Os comandos para criar o volume do [dockerfile](./Dockerfile) foram :
+```docker
+docker volume create volume_dados_csv  
+docker build -t img_desafio6 .
+docker run -v volume_dados_csv:/app/dados_csv img_desafio6
+--verifica se criou o diretorio dos arquivos no volume
+docker volume inspect  volume_dados_csv
+                                                                                                                                                              
+```
+# Explicação das perguntas escolhidas
+
 ## FILMES
 1. Existe um "ponto ideal" de duração de filmes ou séries (em minutos) que maximiza a nota média? Observar padrões de duração que recebem consistentemente boas avaliações pode indicar o que o público prefere em termos de tempo.
 ##
