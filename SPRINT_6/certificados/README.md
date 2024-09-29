@@ -1,0 +1,10 @@
+# Certificados dos cursos AWS
+[analyticsFundamentalsPart1](./analyticsFundamentalsP.1.pdf)
+[analyticsFundamentalsPart2](./analyticsFundamentalsP.2.pdf)
+[athena](./awsAthena.pdf)
+[serverless](./ServerlessAnalytics.pdf)
+[EMR](./awsEMR.pdf)
+[Quicksight](./quicksight.pdf)
+[Redshift](./Redshift.pdf)
+[Best_Practices_RedShift](./bestPractices.pdf)
+[Glue](./awsGLUE.pdf)
