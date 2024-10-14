@@ -1,0 +1,1 @@
+Nesta sprint não houve certificações fora da Udemy.
