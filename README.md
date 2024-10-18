@@ -12,7 +12,7 @@ Olá, me chamo **Ana Claudia Sganzerla** ,sou de Maximiliano de Almeida -RS.Atua
 4. [Sprint 4](SPRINT_4/README.md)
 5. [Sprint 5](SPRINT_5/README.md)
 6. [Sprint 6](SPRINT_6/README.md)
-7. [Sprint 7](SPRINT_7/README.md)
+7. [Sprint 7](SPRINT_7/README.MD)
 8. [Sprint 8](SPRINT_8/README.md)
 9. [Sprint 9](SPRINT_9/README.md)
 10. [Sprint 10](SPRINT_10/README.md)
