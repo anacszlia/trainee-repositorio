@@ -136,6 +136,7 @@ Mostra tudo o que ocorreu na execução do job ,sendo retornado cada impressão 
 
 5. ## Visualizar a tabela criada e os dados nela
 Tabela criada por meio da criação de um crawler,e após conceber as permissões para usúario IAM no serviço Lake formation em Data Lake Permissions.
+
 ![tab](./consultaGlue.png)
 
 

@@ -16,10 +16,10 @@ O exercício abordou o uso de várias bibliotecas usuais para a geração e mass
 
 
 ## Exercício Sql-Spark:
-Para gerar um script e executá-lo ao mesmo tempo no subsistema windows-ubuntu,utilizei a extensão [https://code.visualstudio.com/docs/remote/wsl](https://code.visualstudio.com/docs/remote/wsl) para programar no vscode ,e o comando ```sh code .``` no terminal para abrir uma sessão no vscode.
+Para gerar um script e executá-lo ao mesmo tempo no subsistema windows-ubuntu,utilizei a extensão [https://code.visualstudio.com/docs/remote/wsl](https://code.visualstudio.com/docs/remote/wsl) para programar no vscode ,e o comando ```shell code .``` no terminal para abrir uma sessão no vscode.
 
 O [script.py](exer3.py) está dividido por etapas ,assim como foi exigido no enunciado.
-Para executar o script no terminal eu usei o comando shell ```sh spark-submit exer3.py``` para iniciar a sessão spark e gerar os DataFrames.
+Para executar o script no terminal eu usei o comando shell ```shell spark-submit exer3.py ``` para iniciar a sessão spark e gerar os DataFrames.
 As evidências de execução são:
 1. ### 3.1 (listar 5 linhas)
 _Obs:O printSchema da etapa 3.2 apareceu junto ao metodo .show(5)_
