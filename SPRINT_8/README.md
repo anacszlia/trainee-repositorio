@@ -1,5 +1,5 @@
-# Resumo sprint 5
-Nesta sprint foram trabalhados os cursos ofertados de preparação para o exame da AWS e a prática de vários Serviços para soluções no laboratório AWS.
+# Resumo sprint 8
+Nesta sprint foram revisados os conteúdos aprendidos nas sprints passadas ,como python e sql que juntos podem ser usados no spark para análises com boas performances nos dados.
 
 `Exercícios`
 [exercicios](./exercicios/README.md)
