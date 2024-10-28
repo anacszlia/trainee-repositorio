@@ -8,7 +8,7 @@ Nesta sprint o que era pra ser feito era a limpeza dos dados,com o objetivo de e
 Efetuei ,primeiramente testes locais por meio do terminal do wsl ubuntu e de arquivos notebooks no Gloogle Colab.
 1. `CSV` :
 Utilizei métodos como _printSchema()_ para visualizar os tipos de dados presentes nas colunas .Por padrão arquivos Csv só tem colunas do tipo string ,por isso alterei para que certos campos tivessem os valores corretos antes de escrever os arquivos no formato parquet.
-Além disso,filtrei genêros atribuídos a Comédia,pois só com este gênero que utilizarei ,e eliminei todas as linhas que contivessem pelo menos um valor nulo,pois trabalharei com perguntas mais genéricas sobre tudo.
+Além disso,filtrei genêros atribuídos a Comédia,pois só com este gênero que utilizarei ,e eliminei todas as linhas que contivessem pelo menos um valor nulo,pois trabalharei com perguntas mais genéricas sobre tudo.Sempre criando novos dataframes para as mudanças realizadas,pois eles são imutáveis.
 Abaixo está o mesmo código que foi utilizado no [job_csv](job_csv.py).
 ```py
 
@@ -82,4 +82,21 @@ job.commit()
 
 
 ```
+
+Dessa maneira,foi possível realizar a limpeza dos dados,levando dados mais confiáveis para as consultas.
+
+## Prosseguimento das perguntas a serem feitas 
+
+## FILMES
+1. Existe um "ponto ideal" de duração de filmes ou séries (em minutos) que maximiza a nota média? Observar padrões de duração que recebem consistentemente boas avaliações pode indicar o que o público prefere em termos de tempo,o que foi que contribuiu para que o filme alcançasse maior lucro ?(Considerar filmes que obtiveram lucros maiores que a média revenue)
+##
+2. Existe alguma correlação entre o número de artistas com uma nota alta em uma produção e a nota média da obra? Produções com "elencos de peso" têm melhor desempenho do que aquelas com apenas um grande nome?
+## Sobre genêro dos artistas
+3. avaliar se o filme tem maior avaliação de acordo com o gênero crescimento da participação feminina aumentou junto com a avaliação dos filmes de comedia,avaliar a popularidade e as produtoras de filmes mais "inclusivas " que tem maior público feminino como artista principal e o país de origem das produtoras.
+##
+4. qual profissão secundaria dos atores permitiu ganhar mais nota de atuação eles tendem a receber melhores notas em filmes em que assumem múltiplos papéis?
+
+5. Existe uma relação entre a data de nascimento de artistas e o número de votos, indicando que atores mais jovens ou mais velhos são menos reconhecidos, apesar da boa performance.
+##
+6. Existe um padrão de crescimento de popularidade para certos artistas ao longo do tempo, como uma "curva de ascensão" em que eles se tornam mais populares depois de certa idade ou número de obras?
 
