@@ -52,7 +52,10 @@ df.write.mode("overwrite").parquet(output_path)
 ## Mapa da modelagem dos dados
 Utilizei a mesma ferramenta de modelagem da sprint 2 ,o: [https://app.sqldbm.com/](https://app.sqldbm.com/) ,site que permite de maneira simples ,criar modelos não tão complexos mas que auxiliam na visualização.
 _Obs_:Tentei especificar como chaves primárias as colunas que correspondem a valores únicos ,como __nomeArtista__ e __imdb_id__ ligadas com a tabela __fatos_filmes__ que unem todas elas .Por motivos de bug,a coluna __imdb_id__ não reconheceu como chave estrangeira na tabela fatos_filmes.
-![img](./)
+
+![img](../evidencias/modelagem.png)
+
+
 
 ## Teste local do desafio:
 Após filtrar de maneira correta os dados e elaborar o modelo que irá apontar como será construída a última camada do data-lake,criei tabelas com base na modelagem.
@@ -71,6 +74,7 @@ df_comuns = df1.join(df2, df1.id == df2.imdb_id, "inner")
 
 # Exibir os dados comuns
 df_comuns.show(50)
+df_comuns.printSchema()
 
 # Selecionar colunas específicas para a tabela de filmes
 df_filmes = df_comuns.select(
