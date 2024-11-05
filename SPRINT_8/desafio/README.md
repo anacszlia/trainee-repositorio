@@ -87,16 +87,13 @@ Dessa maneira,foi possível realizar a limpeza dos dados,levando dados mais conf
 
 ## Prosseguimento das perguntas a serem feitas 
 
-## FILMES
+## FILMES -Lucro
 1. Existe um "ponto ideal" de duração de filmes ou séries (em minutos) que maximiza a nota média? Observar padrões de duração que recebem consistentemente boas avaliações pode indicar o que o público prefere em termos de tempo,o que foi que contribuiu para que o filme alcançasse maior lucro ?(Considerar filmes que obtiveram lucros maiores que a média revenue)
-##
-2. Existe alguma correlação entre o número de artistas com uma nota alta em uma produção e a nota média da obra? Produções com "elencos de peso" têm melhor desempenho do que aquelas com apenas um grande nome?
 ## Sobre genêro dos artistas
-3. avaliar se o filme tem maior avaliação de acordo com o gênero crescimento da participação feminina aumentou junto com a avaliação dos filmes de comedia,avaliar a popularidade e as produtoras de filmes mais "inclusivas " que tem maior público feminino como artista principal e o país de origem das produtoras.
-##
-4. qual profissão secundaria dos atores permitiu ganhar mais nota de atuação eles tendem a receber melhores notas em filmes em que assumem múltiplos papéis?
+2. avaliar se o filme tem maior avaliação de acordo com o gênero .O crescimento da participação feminina aumentou junto com a avaliação dos filmes de comedia?avaliar a popularidade e as produtoras de filmes mais "inclusivas " que tem maior público feminino como artista principal e o país de origem das produtoras.
+## Profissões 
+3. Qual profissão secundária dos atores permitiu ganhar mais nota de atuação.Artistas que são além de atores fazem o filme ganhar mais popularidade?
+## Idade
+4. Existe uma relação entre a data de nascimento de artistas e o número de votos, indicando que atores mais jovens ou mais velhos são menos reconhecidos, apesar da boa performance,ou se existe uma "curva de ascensão" em que eles se tornam mais populares depois de certa idade.
 
-5. Existe uma relação entre a data de nascimento de artistas e o número de votos, indicando que atores mais jovens ou mais velhos são menos reconhecidos, apesar da boa performance.
-##
-6. Existe um padrão de crescimento de popularidade para certos artistas ao longo do tempo, como uma "curva de ascensão" em que eles se tornam mais populares depois de certa idade ou número de obras?
 
