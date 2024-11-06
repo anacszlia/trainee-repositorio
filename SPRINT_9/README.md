@@ -1,5 +1,5 @@
 # Resumo sprint 9
-Nesta sprint foi trabalhado a criação de tabelas baseadas nos dados disponíveis nos arquivos parquet armazanados na camada Trusted para serem destinados para a camada Refined.
+Nesta sprint foi trabalhado a criação de tabelas baseadas nos dados disponíveis nos arquivos parquet armazenados na camada Trusted para serem destinados para a camada Refined.
 
 `Exercícios`
 [exercicios](./exercicios/README.md)
