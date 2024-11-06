@@ -129,6 +129,15 @@ df_votos.write.mode("overwrite").parquet("/data-lake-de-ana.sganzerla/Refined/vo
 Após o script rodar com sucesso,importei o código para o job_refined do Glue ,mantendo a mesma estrutura ,apenas alterando os caminhos de escrita das tabelas e deletanto as linhas de `printSchema() e .show()`.Veja aqui: [job_refined](job_refined.py).
 
 
+![img](jobrodado.png)
+
+
+### Logs do job
+
+![img](logs.png)
+
+
+
 ## Prosseguimento das perguntas a serem feitas 
 Nesta sprint em específica,resumi melhor as perguntas a serem feitas de forma mais simples e direta para serem respondidas.
 
