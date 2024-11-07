@@ -1,7 +1,7 @@
 # Desafio
 Este desafio envolveu a transferência de dados da camada Trusted para a camada Refined.Com o objetivo de criar tabelas com dados especificos de cada .
 
-## filtrando mais dados necessários :
+## Filtrando mais dados necessários :
 Nos testes locais realizados no Google colab ,seguindo as dicas do monitor ,primeiramente,precisei voltar para uma etapa anterior do desafio,pois constatei erros nos meus dados transformados do arquivo csv para parquet que me impediam de alcançar convergências dos dados entre os arquivos da pasta local e da pasta tmdb.
 Além disso,optei por deixar colunas como id e tituloPrincipal como forma de corresponder os dados complementares com os da api tmdb.
 ```py
