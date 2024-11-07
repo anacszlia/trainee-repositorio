@@ -136,7 +136,13 @@ Após o script rodar com sucesso,importei o código para o job_refined do Glue ,
 
 ![img](logs.png)
 
+### Popular tabelas por meio de crawlers
+Criei um crawler para cada tabela para que ficassem disponíveis no Data Catalog e na Athena
 
+![img](crawlers.png)
+
+
+Essas foram as etapas que me levaram a construir o desafio,as demais evidências de execução sobre o desafio estão na pasta [evidencias](../evidencias/)
 
 ## Prosseguimento das perguntas a serem feitas 
 Nesta sprint em específica,resumi melhor as perguntas a serem feitas de forma mais simples e direta para serem respondidas.
