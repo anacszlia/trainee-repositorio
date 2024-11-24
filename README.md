@@ -1,5 +1,5 @@
 
-# Relátorio de atividades do progama AWS Compass
+# Relátorio de atividades do programa AWS Compass
 
 ## Apresentação
 Olá, me chamo **Ana Claudia Sganzerla** ,sou de Maximiliano de Almeida -RS.Atualmente estou cursando o segundo semestre de Ciência da Computação no IFSUL campus Passo Fundo.Esta é a minha primeira experiência profissional na área da tecnologia,com excessão de alguns cursos de capaçitação que realizei até o momento,como desenvolvimento web e desenvolvimento de jogos.Um dos meus hobbies e interesses é a constante leitura e aprendizado sobre o que há de novo na tecnologia.
