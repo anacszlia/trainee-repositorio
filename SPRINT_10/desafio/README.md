@@ -55,7 +55,7 @@ CROSS JOIN UNNEST(f.genres) AS c (genero)
 Cada pergunta tem uma narrativa, explicação do respectivo gráfico e resultados. Durante as sprints, o trabalho focou exclusivamente em filmes, deixando de lado séries.
 
 
-1. ## FILMES -Receita
+1. # FILMES -Receita
 **Introdução:**
 Maximizar lucros é essencial em qualquer esforço humano. A análise buscou determinar um "ponto ideal" de duração dos filmes (em minutos) que maximiza a nota média, bem como os fatores que contribuem para maiores receitas, considerando filmes que obtiveram lucros acima da média.
 **Desenvolvimento:**
@@ -66,7 +66,7 @@ Foi avaliado se existe uma duração consistente que recebe boas avaliações e 
 **Conclusão**
 Filmes com maior receita média têm uma duração ideal de 108 minutos (1h48min), indicando que o tempo de exibição contribui para a lucratividade.
 
-2. ## Sobre genêro dos artistas
+2. # Sobre genêro dos artistas
 
 **Introdução:**
 Ao longo da história, as mulheres foram e continuam sendo vítimas do machismo estrutural presente na sociedade. Isso se reflete também no cinema, onde, por muito tempo, a atuação era exclusiva para homens, enquanto as mulheres eram proibidas de participar. Mesmo após séculos de luta, em gêneros como a comédia, persiste a visão de que as mulheres são "menos engraçadas", tanto em filmes quanto como humoristas. Para explorar mais sobre esse tema, acesse [Por que Achamos que Mulheres não Sabem Fazer Humor](https://nodeoito.com/mulheres-humor-comediantes/). Esse preconceito pode ser comprovado pelos dados, como número de votos e receita dos filmes?
@@ -98,7 +98,7 @@ Os dados revelam que, embora a participação feminina no cinema esteja crescend
 Contudo, ao identificar produtoras mais inclusivas, é possível traçar estratégias para promover maior equidade na indústria cinematográfica.  
 
 
-3. ## Profissões 
+3. # Profissões 
 
 ## Profissões Secundárias dos Atores
 
@@ -115,7 +115,7 @@ A análise foi realizada com base na soma da receita gerada pelos filmes, associ
 **Conclusão:**  
 Os resultados indicam que os atores com profissões secundárias específicas influenciam diretamente no sucesso financeiro dos filmes. Isso reforça a importância de habilidades multifacetadas no cinema para alavancar receitas.  
 
-4. ## Idade
+4. # Idade
 
 # Etarismo no Cinema
 
