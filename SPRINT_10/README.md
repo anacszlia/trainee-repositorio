@@ -1,5 +1,5 @@
-# Resumo sprint 9
-Nesta sprint foi trabalhado a criação de tabelas baseadas nos dados disponíveis nos arquivos parquet armazanados na camada Trusted para serem destinados para a camada Refined.
+# Resumo sprint 10
+Nesta sprint foi trabalhado o uso dos dados limpos,confiáveis e organizados em tabelas da camada Refined do Data-lake para a criação de insights por meio da criação de gráficos usando o QuickSight para a visualização de dados.
 
 `Exercícios`
 [exercicios](./exercicios/README.md)
